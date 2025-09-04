@@ -1,0 +1,28 @@
+{
+  "name": "building-an-express-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MamelAlbouryNdiaye/Building-an-Express-Application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MamelAlbouryNdiaye/Building-an-Express-Application/issues"
+  },
+  "homepage": "https://github.com/MamelAlbouryNdiaye/Building-an-Express-Application#readme",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "morgan": "^1.10.1",
+    "nodemon": "^3.1.10"
+  }
+}
