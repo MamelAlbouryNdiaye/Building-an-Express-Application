@@ -1,14 +1,18 @@
 import express from 'express';
-import ejs from 'ejs'
+
 
 const app =  express()
 
 
 //register view engine
 app.set('view engine', 'ejs');
-
+//routes
 app.get('/', (req, res) =>{
     res.render('index', {title : 'HomePage'})
+})
+
+app.get('/about', (req, res) =>{
+    res.render('about', {title : "AbouPage"})
 })
 
 //port
